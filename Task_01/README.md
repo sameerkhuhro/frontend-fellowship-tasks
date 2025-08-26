@@ -18,7 +18,7 @@ I created a simple webpage that included:
 ## 📂 Files
 - `index.html` → Contains the HTML code for the task  
 
-## 📷 Output (Optional)
+## 📷 Output 
  
 
 ![Output Screenshot](image.png)
