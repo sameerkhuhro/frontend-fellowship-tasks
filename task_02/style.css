@@ -1,0 +1,85 @@
+body {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: #090808; /* Dark background */
+
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.profile-card {
+  background-color: #1f1f1f;
+  width: 375;
+  height: 573;
+
+  opacity: 1;
+  padding-top: 32px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  gap: 8px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  position: sticky;
+  top: 20px;
+}
+.avatar {
+  width: 83;
+  height: 83;
+  margin-bottom: 1rem;
+   /* object-fit: cover; */
+  /* angle: 0 deg; */
+  opacity: 1;
+  top: 32px;
+  left: 146px;
+  border-radius: 50%;
+}
+.name {
+  width: 182;
+  height: 29;
+ font-size: 1.5rem;
+ font-weight:600;
+  opacity: 1;
+}
+.bio{
+  width: 256;
+height: 49;
+
+opacity: 1;
+padding-top: 16px;
+padding-bottom: 16px;
+gap: 10px;
+color: #ddd;
+
+}
+.social-links{
+  width: 327;
+height: 299;
+
+opacity: 1;
+padding-right: 16px;
+padding-left: 16px;
+gap: 16px;
+
+}
+a{
+  width: 295;
+height: 77;
+
+opacity: 1;
+padding-top: 15px;
+padding-bottom: 15px;
+gap: 10px;
+border-radius: 8px;
+background: #333333;
+  text-decoration: none;
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+   color: white;
+   margin-bottom: 18px;
+}
