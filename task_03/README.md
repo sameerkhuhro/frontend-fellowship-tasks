@@ -3,6 +3,8 @@
 ## 📋 Project Overview
 This project is part of the **Buildables Fellowship Program (Week 3)**. The goal is to build a **static recipe webpage** using custom HTML and CSS. The design is based on a Figma file provided by the mentor, showcasing a recipe for a Simple Omelette.
 
+here is the Live preview : https://recipewebp.netlify.app/
+
 ---
 
 ## 🌟 Features
