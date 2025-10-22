@@ -1,0 +1,167 @@
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+
+}
+
+.card{
+  background-color: white;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0 ,0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Alert */
+
+.alert{
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.alert i{
+    margin-right: 10px;
+}
+
+.alert-success{
+    background-color: var(--success-color);
+    color: #fff;
+}
+.alert-error{
+    background-color: var(--error-color);
+    color: #fff;
+}
+
+
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3{
+  grid-template-columns: repeat(3,1fr);
+}
+
+
+
+.bg-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.xl {
+    font-size: 4rem;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+/* margin */
+.my-1{
+    margin: 1rem 0;
+}
+
+.my-2{
+    margin: 1.5rem 0;
+}
+.my-3{
+    margin: 2.0rem 0;
+}
+.my-4{
+    margin: 3rem 0;
+}
+.my-5{
+    margin: 4rem 0;
+}
+
+
+.m-1{
+    margin: 1rem ;
+}
+
+.m-2{
+    margin: 1.5rem ;
+}
+.m-3{
+    margin: 2.0rem ;
+}
+.m-4{
+    margin: 3rem ;
+}
+.m-5{
+    margin: 4rem ;
+}
+
+
+
+/* paddingpy */
+.py-1{
+    margin: 1rem 0;
+}
+
+.py-2{
+    margin: 1.5rem 0;
+}
+.py-3{
+    margin: 2.0rem 0;
+}
+.py-4{
+    margin: 3rem 0;
+}
+.py-5{
+    margin: 4rem 0;
+}
+
+/* Fix padding utilities: use padding, not margin */
+.py-1 { padding: 1rem 0; }
+.py-2 { padding: 1.5rem 0; }
+.py-3 { padding: 2rem 0; }
+.py-4 { padding: 3rem 0; }
+.py-5 { padding: 4rem 0; }
+
+.p-1{
+    margin: 1rem ;
+}
+
+.p-2{
+    margin: 1.5rem ;
+}
+.p-3{
+    margin: 2.0rem ;
+}
+.p-4{
+    margin: 3rem ;
+}
+.p-5{
+    margin: 4rem ;
+}
+
+/* Responsive grid for 3 columns */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
